@@ -1,122 +1,79 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mathématiques appliquées à la biologie</title>
+    <title>Rachele Allena - Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
     <style>
-  body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-
-  header {
-    background-color: #004c99;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-
-  nav {
-    background-color: #e0e0e0;
-    padding: 10px;
-    text-align: center;
-  }
-
-  nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #004c99;
-    font-weight: bold;
-  }
-
-  main {
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
-    padding-bottom: 100px; /* prevent content being hidden behind fixed footer */
-  }
-
-  h1 {
-    margin-top: 0;
-  }
-
-  /* 👇 Updated footer style with logos */
-  footer.logo-footer {
-    background-color: #004c99;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 100;
-  }
-
-  .footer-logo {
-    height: 40px;
-    margin: 0 10px;
-    vertical-align: middle;
-  }
-</style>
-
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
   </head>
-  <body>
-    <header>
-      <h1>Consortium Mathématiques & Biologie</h1>
-      <p>Université Côte d’Azur</p>
-    </header>
+  <body class="bg-stone-300 text-gray-800">
 
-    <nav>
-      <a href="home.html">Home</a>
-      <a href="#members">Members</a>
-      <a href="#projects">Projects</a>
-      <a href="#publications">Publications</a>
-      <a href="#contact">Contact</a>
+  <header class="bg-white shadow sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-center">
+    <nav class="space-x-6 text-sm">
+      <a href="#aboutus" class="text-blue-700 hover:text-blue-700"><strong>About us</strong></a>
+      <a href="#members" class="text-blue-700 hover:text-blue-700"><strong>Members</strong></a>
+      <a href="#projects" class="text-blue-700 hover:text-blue-700"><strong>Projects</strong></a>
+      <a href="#publications" class="text-blue-700 hover:text-blue-700"><strong>Publications</strong></a>
+      <a href="#jobs" class="text-blue-700 hover:text-blue-700"><strong>Jobs</strong></a>
+      <a href="#contact" class="text-blue-700 hover:text-blue-700"><strong>Contact</strong></a>
     </nav>
+  </div>
+</header>
 
-    <main>
-      <section id="intro">
-        <h2>About us</h2>
-        <p>
-          Ce consortium vise à renforcer les synergies entre les mathématiques appliquées et la biologie au sein de l’Université Côte d’Azur. Il rassemble chercheurs, doctorants et partenaires autour de problématiques interdisciplinaires allant de la modélisation cellulaire à la dynamique des populations.
-        </p>
-      </section>
+    <main class="max-w-5xl mx-auto px-6 py-10 pb-28 space-y-12">
 
-      <section id="members">
-        <h2>Members</h2>
-        <p>Liste des membres bientôt disponible.</p>
-      </section>
+    <section id="aboutus" class="scroll-mt-20">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">About us</h2>
+    </section>
 
-      <section id="projects">
-        <h2>Projects</h2>
-        <p>Présentation des projets en cours et à venir.</p>
-      </section>
+    <section id="members" class="scroll-mt-20">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Members</h2>
+      
+    </section>
 
-      <section id="publications">
-        <h2>Publications</h2>
-        <p>Quelques publications majeures liées au consortium.</p>
-      </section>
+    <section id="projects" class="scroll-mt-20">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Projects</h2>
+      
+    </section>
 
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Pour toute information : <a href="mailto:contact@univ-cotedazur.fr">contact@univ-cotedazur.fr</a></p>
-      </section>
+    <section id="publications" class="scroll-mt-20">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Publications</h2>
+      
+    </section>
+
+    <section id="jobs" class="scroll-mt-20">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Jobs</h2>
+      
+    </section>
+
+    <section id="contact" class="scroll-mt-20">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Contact</h2>
+      
+    </section>
+    
     </main>
 
-    <footer class="fixed bottom-0 left-0 w-full bg-white shadow-inner z-50">
+    <!-- Fixed footer banner for logos -->
+<footer class="fixed bottom-0 left-0 w-full bg-white shadow-inner z-50">
   <div class="max-w-7xl mx-auto px-4 py-2 flex justify-center space-x-8 items-center">
     <a href="https://www.cnrs.fr" target="_blank" class="text-blue-600 hover:underline">
-      <img src="images/cnrs.jpg" alt="CNRS Logo" class="h-8" />
+      <img src="images/cnrs.jpg" alt="CNRS Logo" class="h-12" />
     </a>
     <a href="https://univ-cotedazur.fr/" target="_blank" class="text-blue-600 hover:underline">
-      <img src="images/unica.jpg" alt="University Logo" class="h-8" />
+      <img src="images/unica.jpg" alt="University Logo" class="h-12" />
     </a>
   </div>
 </footer>
-
+    
   </body>
 </html>
